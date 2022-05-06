@@ -49,7 +49,7 @@ h1{
 
 .op{
     transition: 0.3s;
-    opacity: calc(0.2);
+    opacity: calc(0.4);
 }
 
 .op:hover{
@@ -80,7 +80,7 @@ a{
 .img{
     display: flex;
     width: 50%;
-    height: 50%;
+    height: 60%;
     align-self: center;
     margin: auto;
     background-repeat: no-repeat;
@@ -162,26 +162,26 @@ a{
 @keyframes bottom1{
     0% {
         background-color: rgba(55, 54, 63, 0);
-        border-top: 0px solid rgba(255,70,86,255);
+        outline: 0px solid rgba(255,70,86,255);
         border-bottom: 0px solid rgba(255,70,86,255);
     }
     
     20% {
         background-color: rgba(55, 54, 63, 0);
-        border-top: 0px solid rgba(255,70,86,255);
+        outline: 0px solid rgba(255,70,86,255);
         border-bottom: 0px solid rgba(255,70,86,255);
     }
 
     70% {
         background-color: rgba(55, 54, 63, 0);
-        border-top: 0px solid rgba(255,70,86,255);
+        outline: 0px solid rgba(255,70,86,255);
         border-bottom: 0px solid rgba(255,70,86,255);
     }
     
 
     100% {
         background-color: rgb(55, 54, 63);
-        border-top: 2px solid rgba(255,70,86,255);
+        outline: 2px solid rgba(255,70,86,255);
         border-bottom: 2px solid rgba(255,70,86,255);
     }    
 }
@@ -224,16 +224,23 @@ a{
         flex-direction: column;
         border: 0px solid rgb(143, 24, 34);
         width: 70vw;
-        height: 70vh;
+        height: 75vh;
+        margin-top: -5vh;
     }
     
     .box{
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         width: 100%;
         height: 80%;
+        font-size: 0.8rem;
         background-color: rgba(15,25,34,255);
         border: 2px solid rgba(255,70,86,255);
+    }
+
+    .bottom1{
+        height: 15%;
     }
     
     .class{

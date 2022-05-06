@@ -333,7 +333,6 @@ p{
     width: 15%;
     height: 90%;
     justify-content: space-between;
-
 }
 
 #i1{
@@ -520,22 +519,22 @@ p{
     background-color: rgb(46, 38, 38);
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 #hvideo{
     width: 70%;
-    height: 65%;
+    height: 60%;
     background-image: url(../images/load.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
+    
 }
-
 
 .video video{
     width: 100%;
     height: 100%;
-    border: 5px solid white;
+    border: 2px solid white;
 }
 
 #hdescripcion1,
@@ -599,7 +598,7 @@ p{
 
     .box3{
         display: flex;
-        height: 20vh;
+        height: 45vh;
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -623,6 +622,292 @@ p{
     nav{
         width: 50%;
     }
+
+    .boton_habilidades{
+        width: 60%;
+        height: 10%;
+    }
+
+    .boton_habilidades2{
+        width: 60%;
+    }
+
+    .boton_habilidades3{
+        width: 60%;
+    }
+
+    .boton_habilidades4{
+        width: 60%;
+    }
+
+    .biblio{
+        display: flex;
+        width: 80%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        font-size: 1rem;
+        text-align: start;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+    #popup1,
+    #popup2,
+    #popup3,
+    #popup4{
+        position: fixed;
+        display: none;
+        margin-top: 10vh;
+        width: 80vw;
+        height: 45vh;
+        background-color: rgb(31, 25, 25);
+        border: 4px solid rgb(255, 255, 255);
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        z-index: 10;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    #hdescripcion1,
+    #hdescripcion2,
+    #hdescripcion3,
+    #hdescripcion4{
+        font-size: 0.5rem;
+        height: 30%;
+    }
+
+    #hvideo{
+        width: 100%;
+        height: 65%;
+        background-image:none;
+        margin-top: 1vh;
+    }
+
+    .video video{
+        width: 100%;
+        height: 100%;
+        border: 2px solid white;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        
+    }
+
+    #h_2{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 80%;
+        background-color: rgb(31, 25, 25);
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #h_1{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 2vh;
+        width: 90%;
+        height: 20%;
+        justify-content: space-between;
+    }
+
+    #i1{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/c.png);
+        background-color: rgb(234,75,94);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #i2{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/q.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #i3{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/e.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #i4{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/x.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+
+
+    #s1{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/c.png);
+        background-color: rgb(234,75,94);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #s2{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/q.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #s3{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/e.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #s4{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/x.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+
+    #kj1{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/c.png);
+        background-color: rgb(234,75,94);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #kj2{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/q.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #kj3{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/e.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #kj4{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/x.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+
+
+    #ch1{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/c.png);
+        background-color: rgb(234,75,94);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #ch2{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/q.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #ch3{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/e.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+    
+    #ch4{
+        width: 20%;
+        height: 80%;
+        background-image: url(../images/icons/cypher/x.png);
+        background-color: rgb(46, 38, 38);
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media (min-width: 720px) {
