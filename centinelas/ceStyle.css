@@ -712,7 +712,7 @@ p{
 
     #h_1{
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         margin-top: 2vh;
         width: 90%;
         height: 20%;
@@ -767,7 +767,7 @@ p{
     #s1{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/c.png);
+        background-image: url(../images/icons/sage/bola.png);
         background-color: rgb(234,75,94);
         background-position: center;
         background-repeat: no-repeat;
@@ -778,7 +778,7 @@ p{
     #s2{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/q.png);
+        background-image: url(../images/icons/sage/cura.png);
         background-color: rgb(46, 38, 38);
         background-position: center;
         background-repeat: no-repeat;
@@ -789,7 +789,7 @@ p{
     #s3{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/e.png);
+        background-image: url(../images/icons/sage/muro.png);
         background-color: rgb(46, 38, 38);
         background-position: center;
         background-repeat: no-repeat;
@@ -800,7 +800,7 @@ p{
     #s4{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/x.png);
+        background-image: url(../images/icons/sage/ult.png);
         background-color: rgb(46, 38, 38);
         background-position: center;
         background-repeat: no-repeat;
@@ -811,7 +811,7 @@ p{
     #kj1{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/c.png);
+        background-image: url(../images/icons/kj/killjoy_q.png);
         background-color: rgb(234,75,94);
         background-position: center;
         background-repeat: no-repeat;
@@ -822,7 +822,7 @@ p{
     #kj2{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/q.png);
+        background-image: url(../images/icons/kj/Turret.png);
         background-color: rgb(46, 38, 38);
         background-position: center;
         background-repeat: no-repeat;
@@ -833,7 +833,7 @@ p{
     #kj3{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/e.png);
+        background-image: url(../images/icons/kj/nano.png);
         background-color: rgb(46, 38, 38);
         background-position: center;
         background-repeat: no-repeat;
@@ -844,7 +844,7 @@ p{
     #kj4{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/x.png);
+        background-image: url(../images/icons/kj/Lockdown.png);
         background-color: rgb(46, 38, 38);
         background-position: center;
         background-repeat: no-repeat;
@@ -856,7 +856,7 @@ p{
     #ch1{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/c.png);
+        background-image: url(../images/icons/chamber/chambq.png);
         background-color: rgb(234,75,94);
         background-position: center;
         background-repeat: no-repeat;
@@ -867,7 +867,7 @@ p{
     #ch2{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/q.png);
+        background-image: url(../images/icons/chamber/tp.png);
         background-color: rgb(46, 38, 38);
         background-position: center;
         background-repeat: no-repeat;
@@ -878,7 +878,7 @@ p{
     #ch3{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/e.png);
+        background-image: url(../images/icons/chamber/trap.png);
         background-color: rgb(46, 38, 38);
         background-position: center;
         background-repeat: no-repeat;
@@ -889,25 +889,13 @@ p{
     #ch4{
         width: 20%;
         height: 80%;
-        background-image: url(../images/icons/cypher/x.png);
+        background-image: url(../images/icons/chamber/ult.png);
         background-color: rgb(46, 38, 38);
         background-position: center;
         background-repeat: no-repeat;
         border: 1px solid black;
         background-size: 50%;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media (min-width: 720px) {

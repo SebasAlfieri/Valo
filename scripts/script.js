@@ -150,8 +150,6 @@ ch4.addEventListener('click', () => {
     document.getElementById("ch4").style.backgroundColor = "rgb(234,75,94)";
 })
 
-
-
 function cypher(){
     document.getElementById("sel1").style.backgroundColor = "rgb(234,75,94)";
     document.getElementById("sel1").style.opacity = "1";
@@ -203,7 +201,6 @@ function sage(){
     document.getElementById("btn_sage").style.display = "flex"
     document.getElementById("btn_kj").style.display = "none"
     document.getElementById("btn_chamber").style.display = "none"
-
 }
 
 function sage_hab(){
